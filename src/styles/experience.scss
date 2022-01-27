@@ -1,0 +1,23 @@
+.experience{
+    display:flex;
+    // flex-direction:column;
+    form{
+        display:flex;
+        flex-direction:column;
+        margin: 2em;
+        max-width:45%;
+        min-width: 40%;
+        label{
+            margin: .5em;
+            input{
+                margin:1em;
+            }
+        }
+
+        button {
+            max-width: 5em;
+            padding: 0.5em;
+            cursor: pointer;
+        }
+    }
+}

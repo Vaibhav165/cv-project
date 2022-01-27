@@ -1,0 +1,33 @@
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.education form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em;
+  max-width: 45%;
+  min-width: 40%;
+}
+
+.education form label {
+  margin: 1em;
+}
+
+.education form label input {
+  margin: 1em;
+}
+
+.education form button {
+  padding: 0.5em;
+  max-width: 5em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=education.css.map */

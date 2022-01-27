@@ -1,0 +1,97 @@
+.personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid blueviolet;
+  min-width: 20em;
+}
+
+.personal .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal .contact p {
+  margin: 0 1em;
+}
+
+.educational {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 20em;
+  margin: 0 auto;
+  border: 2px solid #8e40c2;
+}
+
+.educational .course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.educational .course p {
+  margin: 2em 1em;
+}
+
+.exper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border: 2px solid blueviolet;
+}
+
+.exper .cr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.exper .cr h2, .exper .cr h3 {
+  margin: 0 2em;
+}
+
+.exper .dat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.exper .dat p {
+  margin: 2em;
+}
+
+.exper h4 {
+  margin: 2em 0;
+}
+/*# sourceMappingURL=submit.css.map */

@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Personal from './Components/Personal';
+import Experience from './Components/experience';
+import Education from './Components/education';
+import Submitted from './Components/submitted';
+import { Component } from 'react/cjs/react.production.min';
 
-function App() {
+
+class App extends Component {
+  constructor(){
+    super();
+    this.state={
+      isClick:false,
+      send:false
+    };
+
+    this.handleClick=this.handleClick.bind(this);
+  }
+  handleClick(){
+    this.setState({isClick:true,
+    send:true});
+  }
+  render(){
+    let sub;
+    if(this.state.isClick){
+     sub= <Submitted click={this.state.isClick}/>;
+      }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>CV Application</h1>
+      <Personal/>
+      <Experience change={this.handleChange} />
+      <Education change={this.handleChange}/>
+      {/* <button onClick={this.handleClick}>Submit</button>
+    { this.state.send && <Submitted click={this.state.isClick}/>} */}
     </div>
   );
 }
-
+}
 export default App;

@@ -1,0 +1,37 @@
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.person form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em;
+  max-width: 45%;
+  min-width: 40%;
+}
+
+.person form label {
+  padding: 1em;
+}
+
+.person form label input {
+  margin: 1em;
+}
+
+.person form .contact {
+  margin: 1em;
+}
+
+.person form button {
+  max-width: 5em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=personal.css.map */

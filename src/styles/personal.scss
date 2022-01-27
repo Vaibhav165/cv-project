@@ -1,0 +1,28 @@
+.person{
+    // max-width: 40em;
+    display: flex;
+    form{
+        display: flex;
+        flex-direction: column;
+        margin:2em;
+        max-width: 45%;
+        min-width:40%;
+        label{
+            padding: 1em;
+            // margin:.2em;
+
+            input{
+                margin: 1em;
+            }
+        }
+        .contact{
+            margin:1em
+        }
+        button{
+            max-width: 5em;
+            padding: 0.5em;
+            cursor: pointer;
+        }
+    }
+
+}

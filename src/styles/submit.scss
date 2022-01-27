@@ -1,0 +1,58 @@
+.personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    border: 2px solid blueviolet;
+    // padding:0 1em;
+    min-width:20em;
+    
+    .contact{
+        display: flex;
+        p{
+            margin:0 1em;
+        }
+    }
+}
+
+.educational{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 20em;
+    margin: 0 auto;
+    border: 2px solid rgb(142, 64, 194);
+    .course{
+        display: flex;
+        p{
+            margin:2em 1em ;
+        }
+    }
+}
+
+.exper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 auto;
+
+    border: 2px solid blueviolet;
+    .cr{
+        display: flex;
+        // flex-direction: column;
+        h2,h3{
+            margin:0 2em;
+        }
+    }
+    .dat{
+        display: flex;
+        p{
+            margin:2em
+        }
+    }
+    h4{
+        margin: 2em 0;
+    }
+}
